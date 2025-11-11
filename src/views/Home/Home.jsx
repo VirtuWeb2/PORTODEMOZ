@@ -17,7 +17,7 @@ const Home = ({ news, loadingNews, loadingTvPosts, tvPosts }) => {
     return (
       <>
         <Helmet>
-          <title>Início | É Notícia Ponta de Pedras</title>
+          <title>Início | É Notícia Porto de Moz</title>
           <link
             rel="preload"
             href={news && news[0].cover}
